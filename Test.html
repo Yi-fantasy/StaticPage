@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .col-flex {
+        width: 1180px;
+        margin: 20px auto;
+        display: flex;
+        gap: 16px;
+      }
+
+      .col-flex .item {
+        flex: 1;
+      }
+
+      .col-flex .item a {
+        display: block;
+        width: 100%;
+        border-radius: 18px;
+        overflow: hidden;
+        margin-bottom: 15px;
+      }
+
+      .col-flex .item a img {
+        width: 100%;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col-flex">
+      <div class="item">
+        <a href="https://www.baidu.com">
+          <img src="./img/test.png" alt="unknown" />
+        </a>
+        <a href="https://www.baidu.com">
+          <img src="./img/test.png" alt="unknown" />
+        </a>
+        <a href="https://www.baidu.com">
+          <img src="./img/test.png" alt="unknown" />
+        </a>
+        <a href="https://www.baidu.com">
+          <img src="./img/test.png" alt="unknown" />
+        </a>
+        <a href="https://www.baidu.com">
+          <img src="./img/test.png" alt="unknown" />
+        </a>
+      </div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
+</html>
