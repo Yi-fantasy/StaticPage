@@ -1,6 +1,28 @@
 /* --- 公共样式 --- */
 /* 版心宽度 */
 .w {
-  width: 1240;
+  width: 1240px;
   margin: 0 auto;
+}
+
+/* 页头 */
+.shortcut {
+  height: 52px;
+  background-color: #333;
+}
+.shortcut ul {
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.shortcut li a {
+  color: #fff;
+}
+
+.shortcut .line {
+  width: 1px;
+  height: 12px;
+  background-color: #999;
+  margin: 0 15px;
 }
