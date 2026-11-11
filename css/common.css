@@ -16,8 +16,18 @@
   justify-content: flex-end;
   align-items: center;
 }
+
 .shortcut li a {
   color: #fff;
+}
+
+.shortcut li a:hover {
+  color: #5eb69c;
+}
+
+.shortcut li i {
+  font-size: 18px;
+  margin-right: 4px;
 }
 
 .shortcut .line {
@@ -25,4 +35,8 @@
   height: 12px;
   background-color: #999;
   margin: 0 15px;
+}
+
+.shortcut li:first-child a {
+  color: #5eb69c;
 }
