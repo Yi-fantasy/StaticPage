@@ -152,3 +152,53 @@
   margin-left: 60px;
   color: #a1a1a1;
 }
+
+.clothes-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothes-body .left-img {
+  width: 248px;
+  height: 610px;
+}
+
+.right-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 968px;
+  height: 610px;
+}
+
+.right-imgs li {
+  width: 242px;
+  height: 305px;
+  padding: 10px 21px 0;
+}
+
+.right-imgs li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 19px;
+}
+
+.right-imgs li a img {
+  width: 200px;
+  height: 180px;
+}
+
+.right-imgs li a h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.clothes-price {
+  font-size: 22px;
+  color: #af2f22;
+  margin-top: 12px;
+}
+
+.clothes-price small {
+  font-size: 16px;
+}
