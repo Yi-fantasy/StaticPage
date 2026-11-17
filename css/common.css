@@ -84,6 +84,17 @@
   border-bottom: 2px solid #5eb69c;
 }
 
+.search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  top: 9px;
+  font-size: 20px;
+  color: #ccc;
+}
+
 .search input {
   width: 170px;
   height: 40px;
@@ -95,6 +106,19 @@
 .search input::placeholder {
   font-size: 16px;
   color: #ccc;
+}
+
+.car {
+  position: relative;
+}
+
+.car span {
+  position: absolute;
+  padding: 1px 5px;
+  border-radius: 30px;
+  background-color: #e26237;
+  color: #fff;
+  left: 30px;
 }
 
 .car i {
