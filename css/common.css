@@ -43,10 +43,14 @@
 
 /* header */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   height: 132px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
 }
 
 .header .logo {
