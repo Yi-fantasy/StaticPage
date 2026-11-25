@@ -41,6 +41,15 @@
   color: #5eb69c;
 }
 
+.shortcut .phone i {
+  display: inline-block;
+}
+
+.shortcut .phone:hover i {
+  transform: rotate(360deg);
+  transition: all 0.5s;
+}
+
 /* header */
 .header {
   position: sticky;

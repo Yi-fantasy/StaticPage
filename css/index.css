@@ -227,6 +227,15 @@ html {
 .clothes-body .left-img {
   width: 248px;
   height: 610px;
+  overflow: hidden;
+}
+
+.clothes-body .left-img img {
+  transition: all 0.3s;
+}
+
+.clothes-body .left-img:hover img {
+  transform: scale(1.2);
 }
 
 .right-imgs {
